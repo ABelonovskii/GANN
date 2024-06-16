@@ -1,0 +1,40 @@
+  # do not change
+NUMBER_OF_CANDLES: 1000
+# let to the data file (the path is built from the folder with the program)
+data_name: candles/BTCUSDT.csv
+# How many pieces to split the data into (at least 1000 candles). Usually 10000 candles (month)
+number_of_pieces: 10
+# bot name (the path is built from the folder with the program)
+bot_name: PARAMETERS/test2.bot
+# 0 - use, 1 - evolution
+mode: 1
+
+evolution_settings:
+     # Load gene? 0 - no, 1 - yes
+     load_best: 1
+     # Where to download from (the path is built from the folder with the program)
+     name_best: PARAMETERS/test2.bot_best_result.gen
+     # Number of generations
+     num_generations: 5
+     # Number of bots
+     num_bot: 50
+     # Number of solutions to be chosen as parents in the pairing pool.
+     num_parents_mating: 5
+     # Parent selection type.
+     parent_selection_type: sss
+     # Type of crossover operator.
+     crossover_type: single_point
+     # The type of the mutation operator.
+     mutation_type: random
+     # Percentage of genes to mutate. This setting has no effect if the mutation_num_genes setting exists.
+     mutation_percent_genes: 30
+     # Number of parents to keep in the next population. -1 means keep all parents and 0 means don't save anything.
+     keep_parents: -1
+
+use_settings:
+     # data section (zero-based)
+     number_of_piece: 9
+     # Draw a graph? 0 - no, 1 - yes
+     build_plot: 0
+     # Where to load the gene from (the path is built from the folder with the program)
+     name_best_use: PARAMETERS/test.bot_best_result_03_03.gen

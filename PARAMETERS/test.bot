@@ -1,0 +1,28 @@
+<bot>
+	<neural_network_params>
+	  <model_decision_params>
+		<layer_size>13</layer_size>
+		<layer_size>14</layer_size>
+		<layer_size>14</layer_size>
+		<layer_size>1</layer_size>
+		<activation>relu</activation>
+		<activation>relu</activation>
+		<activation>sigmoid</activation>
+	  </model_decision_params>
+	  <model_definition_params>
+		<layer_size>500</layer_size>
+		<layer_size>40</layer_size>
+		<layer_size>20</layer_size>
+		<layer_size>20</layer_size>
+		<activation>relu</activation>
+		<activation>relu</activation>
+		<activation>sigmoid</activation>
+	  </model_definition_params>
+	</neural_network_params>
+	<frames>
+		<frame>5</frame>
+		<frame>30</frame>
+		<frame>120</frame>
+		<frame>15</frame>
+	</frames>
+</bot>
