@@ -42,3 +42,7 @@ GANN trains trading bots by dividing their functions into two pairs of neural ne
    - Define the time frames the bots will operate within.
 
 **Requires the `engine` C++ file.**
+
+### Copyright
+
+© 2017, Aleksei Belonovskii
